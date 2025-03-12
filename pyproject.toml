@@ -1,0 +1,17 @@
+[project]
+name = "2025-p1-justbroch"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Just Broch",email = "j.broch@student.uq.edu.au"}
+]
+readme = "README.md"
+python = "^3.8"
+dependencies = [
+    "flask (>=3.1.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
