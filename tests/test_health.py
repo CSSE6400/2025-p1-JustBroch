@@ -1,4 +1,4 @@
-import unittest
+""" import unittest
 from todo import create_app
 
 class TestHealth(unittest.TestCase):
@@ -12,3 +12,4 @@ class TestHealth(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+ """

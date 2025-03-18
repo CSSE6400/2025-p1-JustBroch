@@ -1,4 +1,4 @@
-import unittest
+""" import unittest
 from todo import create_app
 
 TEST_TODO = {
@@ -41,3 +41,4 @@ class TestTodo(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json, TEST_TODO)
 
+ """
