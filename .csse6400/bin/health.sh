@@ -13,7 +13,7 @@ if [[ $error -ne 0 ]]; then
 fi
 
 # Wait for flask to start
-sleep 5
+sleep 10
 
 # Check that the health endpoint is returning 200
 curl -s -o /dev/null -w "%{http_code}" http://localhost:6400/api/v1/health | grep 200
